@@ -1,0 +1,19 @@
+{
+    "max_length": 512,
+    "temperature":1,
+    "k":0,
+    "p":0.9,
+    "repetition_penalty":1,
+    "num_return_sequences":1,
+    "seed":42,
+    "stop":null,
+
+    "model_type": "gpt",
+    "config_type": "gpt",
+    "cached_dir": "/Users/liyucheng/projects/model_cache",
+    "tokenizer_type": "bert-base-chinese",
+
+    "stop_token":null
+
+
+}
