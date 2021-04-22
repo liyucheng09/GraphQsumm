@@ -3,11 +3,11 @@ from transformers import AutoTokenizer, BertTokenizer, RobertaTokenizer, \
     Trainer, AutoConfig, TrainingArguments, HfArgumentParser
 import os
 import torch
-from model import RobertaSeq2Seq, BertSeq2seq
-from utils import TrainingConfig, load_cached_hf_parameters, TextGenTrainer
+from models import RobertaSeq2Seq, BertSeq2seq
+from util import TrainingConfig, load_cached_hf_parameters, TextGenTrainer
 import sys
 import pickle
-from GraphModel.copy_summ_multiencoder import CopySummGAT, CopySummParagraph
+from model.copy_summ_multiencoder import CopySummGAT, CopySummParagraph
 
 
 MODEL_CLASSES = {
@@ -88,7 +88,7 @@ def main():
 
     if args.do_test:
 
-        from utils import generate_samples, PROMPT_TEXT
+        from util import generate_samples, PROMPT_TEXT
 
         generate_samples(
             model,

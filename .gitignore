@@ -1,7 +1,8 @@
 .DS_Store/
 .idea/
 .vscode/
-data/*
+# data/*
 thuc*
 zh-wwm-roberta/
 __pycache__/
+data-zh/*

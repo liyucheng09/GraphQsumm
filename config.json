@@ -2,7 +2,7 @@
   "cached_dir": "/Users/liyucheng/projects/model_cache",
   "model_name_or_path": "zh-wwm-roberta",
   "output_dir": "thuc_result_0130",
-  "qsumm_data_path": "data/debatepedia",
+  "qsumm_data_path": "data-zh/debatepedia",
   "thuc_data_path": "/Users/liyucheng/projects/bert_seq2seq-master/zh-wwm-roberta/THUCNews/*/*.txt",
   "type_vocab_size": 2,
   "task": "thuc",
